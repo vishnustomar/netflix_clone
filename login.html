@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, sans-serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            /* background-color: #f4f4f4; */
+            background-image: url(img/netflix\ background\ 2.jpg);
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 50px;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            color: #9c5757;
+        }
+
+        .container2 {
+            padding-top: 15px;
+        }
+
+        .container3 {
+            max-width: 500px;
+            margin: 15px auto;
+            padding: 5px 0px 5px 0px;
+            text-align: center;
+            background-color: #cfded5;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            text-decoration: none;
+            margin: 5px;
+            font-weight: 700;
+            color: #801515;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #d51313;
+        }
+
+        h3 {
+            padding-bottom: 15px;
+            color: #9f0202;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        form input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+
+        form button {
+            background-color: #e23731;
+            color: #fff;
+            width: 100%;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><a href="login.html">NETFLIX</a></h1>
+        <h3>Sign in to your account</h3>
+        <form action="">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+        <div class="flex">
+            <span>
+                <input type="checkbox" name="checkbox">Remember me
+            </span>
+            <span>
+                <a href="#">Forgot your password?</a>
+            </span>
+        </div>
+
+        <div class="container2">
+            <span>Don't have an account? <a href="">Sign up</a></span>
+            <div class="container3">
+                <span><a href="#">© NETFLIX</a></span>
+                <span><a href="#">Contact</a></span>
+                <span><a href="#">Privacy & terms</a></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
